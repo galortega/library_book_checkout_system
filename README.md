@@ -12,19 +12,14 @@ processes.
 
 ## Requirements
 1. Book Selection and Checkout
-	* Display a catalog of available books with their respective details, such as title,
-author, and availability status.
-	* Users should be able to select multiple books for checkout and specify the
-desired quantity.
+	* Display a catalog of available books with their respective details, such as title, author, and availability status.
+	* Users should be able to select multiple books for checkout and specify the desired quantity.
 2. Quantity Validation
-	* Validate that the quantity entered for each book is a positive integer greater
-than zero.
-	* If invalid quantities are entered, the system should prompt users to re-enter
-the quantities.
+	* Validate that the quantity entered for each book is a positive integer greater than zero.
+	* If invalid quantities are entered, the system should prompt users to re-enter the quantities.
 3. Due Date Calculation
 	* Assign a standard loan period of 14 days for each checked-out book.
-	* Calculate the due date based on the current date and the loan period for each
-selected book.
+	* Calculate the due date based on the current date and the loan period for each selected book.
 4. Late Fee Calculation
 	* Apply a late fee of $1 per day for each overdue book.
 	* Provide a feature to calculate the total late fees accrued for a user's account.
@@ -34,8 +29,7 @@ selected book.
 to re-select the books.
 6. Maximum Books per Checkout
 	* Restrict users from checking out more than 10 books in a single transaction.
-	* Display an error message and prompt users to adjust their selection if they
-exceed the maximum limit.
+	* Display an error message and prompt users to adjust their selection if they exceed the maximum limit.
 7. User Confirmation
 	* Before finalizing the checkout, display the selected books, their quantities, due dates, and any applicable late fees for user confirmation.
 	* Users can either confirm the checkout or cancel and make changes to their
